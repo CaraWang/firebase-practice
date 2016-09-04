@@ -11,8 +11,8 @@ new Vue({
     messages: [
       {
 	id: 1,
-	name: "小編",
-	message: "iphone 7 即將上市, 概念股有: #",
+	name: "Pikachu",
+	message: "Some messages will show up...",
 	image: "http://image.flaticon.com/icons/png/128/188/188926.png",
 	time: 1472573572
       }
