@@ -17,7 +17,7 @@
 
 - Set up:
 
-1. Replace the information from your [firebase console](https://console.firebase.google.com) in [`static/main.js`](https://github.com/CaraWang/firebase-practice/blob/master/firebase-client/static/main.js) wrapped by `{}`
+1. Replace the project name from the code in [`static/main.js`](https://github.com/CaraWang/firebase-practice/blob/master/firebase-client/static/main.js) wrapped by `{}` to yours (Check: [firebase console](https://console.firebase.google.com))
 2. Open your terminal, and step by step:
 
 ```
@@ -33,7 +33,7 @@ $ flask run
 
 - Set up:
 
-1. Replace the information from your [firebase console](https://console.firebase.google.com) in [`send-to-firebase.php`](https://github.com/CaraWang/firebase-practice/blob/master/firebase-server/send-to-firebase.php) wrapped by `{}`
+1. Replace the project name and token from the code in [`send-to-firebase.php`](https://github.com/CaraWang/firebase-practice/blob/master/firebase-server/send-to-firebase.php) wrapped by `{}` to yours (Check: [firebase console](https://console.firebase.google.com))
 2. Open your terminal, and step by step:
 
 ```
