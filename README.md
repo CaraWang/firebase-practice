@@ -4,7 +4,7 @@
 
 - Set up:
 
-1. Replace the information from your firebase console in `static/main.js wrapped by `{}`
+1. Replace the information from your [firebase console](https://console.firebase.google.com) in `static/main.js wrapped by `{}`
 2. Open your terminal, and step by step:
 
 ```
@@ -20,7 +20,7 @@ $ flask run
 
 - Set up:
 
-1. Replace the information from your firebase console in `send-to-firebase.php` wrapped by `{}`
+1. Replace the information from your [firebase console](https://console.firebase.google.com) in `send-to-firebase.php` wrapped by `{}`
 2. Open your terminal, and step by step:
 
 ```
