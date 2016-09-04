@@ -1,3 +1,16 @@
+## Security & Rules
+
+```
+{
+  "rules": {
+    "messages": {
+      ".read": true,
+      ".write": true
+    },
+  }
+}
+```
+
 ## Client
 
 > Implemented By `Flask` and `Vue.js`
