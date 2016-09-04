@@ -13,7 +13,7 @@
 
 ## Client
 
-> Implemented By `Flask` and `Vue.js`
+> Implemented by `Flask` and `Vue.js`
 
 - Set up:
 
@@ -29,7 +29,7 @@ $ flask run
 
 ## Server
 
-> Implemented By PHP with `Composer`
+> Implemented by PHP with `Composer`
 
 - Set up:
 
@@ -40,5 +40,6 @@ $ flask run
 $ cd firebase-server
 $ composer install
 $ php send-to-firebase.php
-# start to send message to firebase
+# start to send message to firebase...
+# and then the messages show up in your browser
 ```
