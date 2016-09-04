@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>firebase - Good Practice</title>
+    <link rel="stylesheet" href="[[ url_for('static', filename='style.css') ]]">
+</head>
+<body>
+    <div id="container">
+	<div class="shadow">
+	  <h2>聊天室</h2>
+	</div>
+	<div class="content">
+	  <ul>
+	      <li v-for="message in messages">
+		 <img v-bind:src="message.image" />
+		  <span class="user">{{ message.name }}</span>：<span class="user-msg">{{ message.message }}</span>
+	      </li>
+	  </ul>
+	</div>
+	<div class="submit-msg">
+	  <input type="text" v-model="newMsg" v-on:keyup.enter="submitMsg">
+	  <button>送 出</botton>
+	</div>
+    </div>
+<script src="[[ url_for('static', filename='vue.js') ]]"></script>
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script src="[[ url_for('static', filename='main.js') ]]"></script>
+</body>
+</html>

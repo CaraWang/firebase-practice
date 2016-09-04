@@ -1,0 +1,103 @@
+html, body {
+    background: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    margin: auto;
+    width: 300px;
+    height: 100%;
+}
+
+#container h2 {
+    display: block;
+    background: #f1f1f1;
+    z-index: 1;
+    position: relative;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.shadow {
+    position: relative;
+}
+
+.shadow:after {
+    content: '';
+    display: block;
+    height: 14px;
+    width: 100%;
+    background-image: radial-gradient(farthest-side at 50% 0,hsla(0,0%,40%,.4) 0,hsla(0,0%,40%,0) 100%);
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    z-index: 3;
+}
+
+#container ul {
+    position: absolute;
+    bottom: 0;
+}
+
+#container li {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+#container img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.content {
+    background: #fff;
+    height: 80%;
+    font-size: 12px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #ccc;
+    position: relative;
+}
+
+.submit-msg {
+    height: 45px;
+    background: #fff;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #ccc;
+    border-top: 0;
+}
+
+.submit-msg input {
+    vertical-align: middle;
+    width: 77%;
+    height: 40px;
+    border: 0;
+    outline: none;
+}
+
+.submit-msg button {
+    background: #eaaf53;
+    position: relative;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    border: 0;
+    outline: none;
+}
+
+.submit-msg button:focus {
+    outline: none;
+}
