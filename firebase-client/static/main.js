@@ -2,7 +2,7 @@ var config = {
   databaseURL: "https://{projectName}.firebaseio.com/"
 }
 firebase.initializeApp(config);
-var path = firebase.database().ref('{databasePath}');
+var path = firebase.database().ref('/messages');
 
 new Vue({
   el: '#container',

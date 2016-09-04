@@ -33,7 +33,7 @@ while ($count < 3000) {
           'image' => $images[rand(0, 5)]
         );
 
-        $path = sprintf('%s/%s/%s', DEFAULT_PATH, $dateTime->format('Ymd'), $message['time']);
+        $path = sprintf('%s/%s', DEFAULT_PATH, $message['time']);
         $message['id'] = rand(1, 100);
         $set = $firebase->set($path, $message);
 
