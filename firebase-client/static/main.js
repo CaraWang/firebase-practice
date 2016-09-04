@@ -28,7 +28,6 @@ new Vue({
   compiled: function () {
     // 監聽新資料
     path.limitToLast(1).on('value', function(newMessage) {
-    //path.orderByKey().startAt(Math.floor(Date.now()/1000).toString()).on('value', function(newMessage) {
       console.log('New Message');
       this.addMessage(newMessage.val());
     }.bind(this))
