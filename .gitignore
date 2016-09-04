@@ -1,0 +1,4 @@
+firebase-server/vendor
+firebase-server/composer.lock
+*.pyc
+
